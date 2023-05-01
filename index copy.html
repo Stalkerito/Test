@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="style.css">
+    <title">Ladies In Jazz</title>
+  </head>
+  
+  <body>
+    <div class="a">
+      <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+          <a class="navbar-brand p-0" href="/HTML/index.html">
+            <img src="src/Ladies In Jazz.png" alt="Ladies In Jazz" width="150" />
+          </a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a
+                  class="nav-link"
+                  aria-current="page"
+                  href="Алина Кардакова.html"
+                  >Алина Кардакова</a
+                >
+              </li>
+  
+              <li class="nav-item">
+                <a class="nav-link" href="Светлана Семенова.html"
+                  >Светлана Семенова</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Анастасия Бурцева.html"
+                  >Анастасия Бурцева</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="Татьяна Косарева.html"
+                  >Татьяна Косарева</a
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <div class="container text-center my-5">
+        <div class="row">
+          <div class="col-lg-6 mx-auto">
+              <img class="TitulImg"
+                src="src/314.JPG"
+                alt="Ladies In Jazz"
+              />
+            <h1 class="fw-light">Добро пожаловать</h1>
+            <p class="lead text-muted">
+              Рады видеть вас на нашей страничке! Будем рады услывать
+              ваши отзывы о нашем дружном коллективе. A’cappella квартет «Ladies
+              In Jazz» - это живая музыка на любой праздник и торжество. В
+              репертуаре известные джазовые и эстрадные композиции в авторских
+              аранжировках.
+            </p>
+              <div class="link-container">
+                <!-- btn link VK-->
+                <div class="text-box">
+                  <a href="https://vk.com/ladiesinjazz" 
+                  target="_blank"
+                  class="btn btn-white btn- animate">Наша страничка в VK
+                </a>
+                </div>
+                  <!-- btn link yt-->
+                <div class="text-box">
+                    <a href="https://www.youtube.com/channel/UCDEBRg2QRDpjPkncBmLPCsQ/featured" 
+                    target="_blank"
+                    class="btn btn-white btn- animate">Наша страничка в YouTube
+                  </a>
+                </div>
+              </div>
+
+            
+
+            <!--
+            <div class="container">
+              <div class="vk">
+                <a
+                  href="https://vk.com/ladiesinjazz"
+                  target="_blank"
+                  class="btn btn-primary"
+                >
+                  Наша группа в VK
+                </a>
+              </div>
+              <div class="yt">
+              <a
+                href="https://www.youtube.com/channel/UCDEBRg2QRDpjPkncBmLPCsQ/featured"
+                target="_blank"
+                class="btn btn-secondary"
+              >
+                Наш YouTube Channel
+              </a>
+              </div>
+              <div class="ig">
+                <a
+                  href="https://www.instagram.com/ladiesinjazz/"
+                  target="_blank"
+                  class="btn btn-primary"
+                >
+                  Наша страничка в IG
+                </a>
+              </div>
+            </div>   -->
+          </div>
+        </div>
+      </div>
+      <!-- див c видео-->
+      <div class="container text-center my-5"> 
+        <h1>Немного нашего творчества</h1>
+      <video width="700" height="500" controls="controls">
+        <source
+          src="src\Ladies In Jazz Mr. Sandman.mp4"
+          type='video/ogg; codecs="theora, vorbis"'
+        />
+      </video>
+      <!-- создаем див с input--> 
+      <div>
+        <div class = "container">          
+          <h1 class='text-center'> Что бы Вы хотели услышать в исполнении Ladies in Jazz?  </h1>
+          <input type="text" class="input-in" value="" /> <!--из inputa получаем всегда строку, решить никак нельзя, для работы с числами нужно нужно ставить + в скрипте-->
+  
+          <button class="inputButton">Go</button>
+        </div>
+        <div class="out"></div>
+    </div>
+      <script src="script.js"></script>
+  </body>
+</html>
